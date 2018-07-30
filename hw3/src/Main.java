@@ -32,13 +32,12 @@ public class Main {
         System.out.println(animalList);
         //------------------------------------------------------------
         System.out.println("---Task4---");
+        //---Task5---------------------------------------------------------
         System.out.println("---Task5---");
-  }
-  //---Task5---------------------------------------------------------
-public void EmptyCollection (){
-    List FList= new ArrayList();
+         List FList= new ArrayList();
     if (FList.isEmpty()) throw new NullPointerException ("Current collection is empty !!!");
-    }
+  }
+
    //---Task3---------------------------------------------------------
     public enum  User {
         DEV("Ira","123"),
