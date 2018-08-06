@@ -8,19 +8,19 @@ public class Animals{
     public String nickname ;
     public int age;
 
-    public Animals(boolean isPet,String nickname, int age){
+    public animals(boolean isPet,String nickname, int age){
         this.isPet=isPet;
         this.nickname=nickname;
         this.age=age;
     }
-    public int Go ( ){
+    public int go ( ){
         Scanner scan= new Scanner(System.in);
         System.out.println("Steps need to go:" );
         int step=scan.nextInt();
         return step;
     }
 
-    public String Say(){
+    public String say(){
         Scanner scan= new Scanner(System.in);
         System.out.println("What this animals say:");
        String say= scan.nextLine();
