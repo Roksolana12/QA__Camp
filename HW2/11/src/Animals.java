@@ -4,9 +4,9 @@ import com.sun.org.apache.bcel.internal.generic.SWITCH;
 import java.util.Scanner;
 
 public class Animals{
-    public boolean isPet ;
-    public String nickname ;
-    public int age;
+    protected boolean isPet ;
+    protected String nickname ;
+    protected int age;
 
     public animals(boolean isPet,String nickname, int age){
         this.isPet=isPet;
