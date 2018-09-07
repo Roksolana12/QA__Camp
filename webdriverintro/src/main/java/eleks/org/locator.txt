@@ -1,0 +1,27 @@
+XPath locators
+• Wiki logo
+//div[@id="p-logo"]/child::*
+
+• Div element for Article count
+//div[@id="articlecount"]
+(//div[@id="articlecount"]/child::*[position()=1])
+
+• 4-th item from "Did you know…" list
+//li[text () ="... that Hawaiian diplomat "]
+
+• Count of ‘Interaction’ elements
+//div[@id="p-interaction"]/descendant::*/ul/count(//li)
+_____________________________________
+CSS selectors
+• Wiki logo
+.mw-wiki-logo
+
+• Div element for Article count
+#articlecount
+(#articlecount>a[title="Special:Statistics"])
+
+• Main page link
+[href="/wiki/Main_Page"][title="Visit the main page [alt-shift-z]"]
+
+• 2-nd item from "Did you know…" list
+#mp-dyk ul li+li
